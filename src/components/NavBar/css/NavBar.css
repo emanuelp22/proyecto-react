@@ -1,0 +1,26 @@
+.container-nav{
+    background-color: #500b0bd0;
+    padding:25px
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+    color: #f1f0f0d0;
+    display: inline;
+    padding:25px;
+    cursor: pointer;
+    
+}
+
+li:hover{
+    color: black;
+}
+
+.div-carrito{
+    display: inline;
+}
+
+ul{
+    text-align: end;
+}
