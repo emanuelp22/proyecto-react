@@ -1,0 +1,29 @@
+.CardItem {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:420px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    margin-left: 38%;
+    margin-top: 40px;
+    background-color: rgb(199, 194, 204);
+    
+}
+
+.ItemImg {
+    object-fit: cover;
+    width:90%;
+    height:90%;
+}
+
+.Option{
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
+    display: flex;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    
+}

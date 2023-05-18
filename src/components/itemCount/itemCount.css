@@ -1,0 +1,24 @@
+.Button {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.Button1{
+    font-size: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+   padding: 4px;
+ 
+}
+
+
+
+.Controls{
+    font-size: 20px;
+   
+}
+
