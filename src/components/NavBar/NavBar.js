@@ -13,7 +13,7 @@ const NavBar = () => {
              <h3>Ferreteria NFP</h3>
             </Link>
             <div className="Categories">
-                <NavLink to={`/category/inicio`}className={({isActive}) => isActive ? 'ActiveOption' : 'NavBar'}> Inicio</NavLink>
+                <NavLink to={`/`}className={({isActive}) => isActive ? 'ActiveOption' : 'NavBar'}> Inicio</NavLink>
                 <NavLink to={`/category/ferreteria`}className={({isActive}) => isActive ? 'ActiveOption' : 'NavBar'}> Ferreteria</NavLink>
                 <NavLink to={`/category/Corralon`}className={({isActive}) => isActive ? 'ActiveOption' : 'NavBar'}> Corralón</NavLink>
                 <NavLink to={`/category/Carrito`}className={({isActive}) => isActive ? 'ActiveOption' : 'NavBar'}><CartWidget/></NavLink>
